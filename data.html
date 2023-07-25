@@ -16,6 +16,7 @@
     <table class="table table-success table-striped" colspan="2">
         <thead>
             <tr>
+                <th scope="col">S.NO</th>
                 <th scope="col">Name</th>
                 <th scope="col">Mobile Number</th>
                 <th scope="col">Email Address</th>
@@ -25,22 +26,17 @@
         </thead>
         <tbody id="student-list">
             <tr class="table-active" id="row">
+                <td class="table-active" id="data-sno"></td>
                 <td class="table-active" id="data-name"></td>
                 <td class="table-active" id="data-mobilenumber"></td>
                 <td class="table-active" id="data-email"></td>
                 <td class="table-active" id="data-address"></td>
                 <td class="table-active">
-                    <button  class="btn btn-primary edit" id="edit_button1" value="Edit" onclick="edit_row('1')">Edit</a>
+                    <!-- <button  class="btn btn-primary edit" id="edit_button1" value="Edit" onclick="edit_row('1')">Edit</a> -->
                     <button  class="btn btn-danger delete" value="Delete" onclick="delete_row('1')">Delete</a>
-                    <button  class="btn btn-warning save" id="save_button1" value="Save" onclick="save_row('1')">Save</a>
+                    <!-- <button  class="btn btn-warning save" id="save_button1" value="Save" onclick="save_row('1')">Save</a> -->
                 </td>
             </tr>
-            <!-- <tr>
-                <td><input type="text" id="new_name"></td>
-                <td><input type="text" id="new_country"></td>
-                <td><input type="text" id="new_age"></td>
-                <td><input type="button" class="add" onclick="add_row();" value="Add Row"></td>
-                </tr> -->
         </tbody>
     </table>
 </body>
